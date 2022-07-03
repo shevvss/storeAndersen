@@ -21,11 +21,6 @@ const Item = () => {
   };
 
   const decCount = () => {
-    // if (countItem > 0) {
-    //   setCountItem(countItem - 1);
-    // } else {
-    //   setCountItem(0);
-    // }
     return countItem > 0 ? setCountItem(countItem - 1) : setCountItem(0);
   };
 
